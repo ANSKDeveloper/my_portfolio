@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Developer Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        
+        .hero {
+            background: url('photo/Cross-Platform-Mobile-Development_-Five-Best-Frameworks_2-scaled.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            background-position: top;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+        }
+        
+        .section {
+            padding: 60px 0;
+        }
+        
+        .section-title {
+            margin-bottom: 40px;
+        }
+        
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 40px 0;
+        }
+        
+        .footer a {
+            color: #ffc107;
+        }
+        
+        .footer a:hover {
+            text-decoration: none;
+        }
+        
+        .footer .footer-section {
+            margin-bottom: 30px;
+        }
+        
+        .footer .footer-section h5 {
+            margin-bottom: 20px;
+            font-size: 1.25rem;
+        }
+        
+        .footer .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer .footer-section ul li a {
+            color: white;
+        }
+        
+        .blog-post img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .customer img,
+        .feedback img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .rating i {
+            color: #ffc107;
+        }
+        
+        .rating .fa-star-o {
+            color: #ccc;
+        }
+        
+        #hi {
+            color: orange;
+        }
+        
+        #img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Hi, ANIL SOREN</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#customers">Customers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#feedback">Feedback</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span id="hi">ANIL SOREN</span></h1>
+            <h1>An Android Cross Plateform Developer !</h1>
+            <p>An Android developer is a specialized software engineer focused on building applications for the Android operating system, which is used by billions of smartphones and other devices worldwide. They work with a range of tools and technologies
+                to create apps that are both functional and engaging. Here’s a deeper look into their role:</p>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Java</h4>
+                    <p>Proficient in Java for Android development with extensive experience in Android Studio.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Flutter</h4>
+                    <p>Expert in Flutter for cross-platform mobile app development, creating high-performance apps.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>APIs</h4>
+                    <p>Skilled in integrating RESTful APIs to enhance app functionalities and user experience.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Database</h4>
+                    <p>Experienced in using SQLite, Firebase, and Room for efficient data management in Android apps.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Kotlin</h4>
+                    <p>Proficient in Kotlin, leveraging its modern features to build robust Android applications.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>UI/UX Design</h4>
+                    <p>Skilled in creating user-friendly interfaces and ensuring optimal user experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Blog</h2>
+
+            <!-- Blog Post 1 -->
+            <div class="blog-post mb-4">
+                <h3>Building a WhatsApp Clone App</h3>
+                <img src="photo/WhatsApp-Bot.png" alt="WhatsApp Clone App" id="img">
+                <p>In this blog post, I describe the process of creating a WhatsApp clone app using Flutter and Java. This project involved building real-time chat functionality, integrating multimedia support, and ensuring a seamless user experience similar
+                    to the original WhatsApp application. Key features include:</p>
+                <ul>
+                    <li>Real-time messaging</li>
+                    <li>Media sharing (images, videos)</li>
+                    <li>User authentication and profiles</li>
+                    <li>Push notifications</li>
+                </ul>
+                <p>The app leverages Flutter for a responsive UI and Java for robust backend services.</p>
+            </div>
+
+            <!-- Blog Post 2 -->
+            <div class="blog-post mb-4">
+                <h3>Creating a Todo App with Flutter and Java</h3>
+                <img src="photo/maxresdefault.jpg" alt="Todo App" id="img">
+                <p>This blog post outlines the development of a simple yet effective Todo app using Flutter and Java. The app allows users to manage tasks with ease and features a clean, intuitive interface. Key functionalities include:</p>
+                <ul>
+                    <li>Task creation and management</li>
+                    <li>Task categorization and priority levels</li>
+                    <li>Notifications and reminders</li>
+                    <li>Data persistence with local storage</li>
+                </ul>
+                <p>Flutter was used to design the user interface, while Java handled the backend logic for task management and notifications.</p>
+            </div>
+
+            <!-- Blog Post 3 -->
+            <div class="blog-post mb-4">
+                <h3>Area and Length Converter App</h3>
+                <img src="photo/calculator.jpg" alt="Converter App" id="img">
+                <p>This post covers the development of an Area and Length Converter app using Flutter and Java. The app provides users with a simple way to convert between various units of measurement. Features include:</p>
+                <ul>
+                    <li>Conversion between multiple units (metric and imperial)</li>
+                    <li>Intuitive user interface</li>
+                    <li>Real-time conversion results</li>
+                    <li>Customizable unit lists</li>
+                </ul>
+                <p>The app uses Flutter for the user interface and Java for handling the conversion logic and calculations.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Custom App Development</h4>
+                    <p>Building tailored Android applications to meet your specific needs and goals.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Consultation</h4>
+                    <p>Providing expert advice on Android app development, architecture, and best practices.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>App Maintenance</h4>
+                    <p>Offering ongoing support and maintenance to ensure your app remains up-to-date and functional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customers Section -->
+    <section id="customers" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Customers</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="customer text-center">
+                        <img src="photo/22 (1).jfif" alt="Customer Image">
+                        <h4>William Garcia</h4>
+                        <p>CodingLab is a leading tech firm specializing in innovative solutions and cutting-edge technology.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="customer text-center">
+                        <img src="photo/22 (1).webp" alt="Customer Image">
+                        <h4>Thomas Davis</h4>
+                        <p>Ansk Developer provides top-notch services in app development and digital marketing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="customer text-center">
+                        <img src="photo/22 (2).webp" alt="Customer Image">
+                        <h4>Emily Johnson</h4>
+                        <p>Coding Desk is known for its expertise in delivering high-quality software solutions and consulting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Features</h2>
+            <ul>
+                <li>High-quality code with best practices</li>
+                <li>Responsive and user-friendly designs</li>
+                <li>Efficient app performance and optimization</li>
+                <li>Seamless API integrations</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Feedback</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feedback text-center">
+                        <img src="photo/44.jpg" alt="Customer Image">
+                        <h4>John Doe</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>"The app development experience was fantastic! Highly professional and delivered exactly what we needed."</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feedback text-center">
+                        <img src="photo/44.webp" alt="Customer Image">
+                        <h4>James Smith</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"Great work on the app! The integration with Flutter and Java was seamless and the performance is top-notch."</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feedback text-center">
+                        <img src="photo/a (5).jpg" alt="Customer Image">
+                        <h4>Mike Johnson</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>"Very satisfied with the results. The app performs well, and the support provided was excellent."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Contact</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 footer-section">
+                    <h5>About Me</h5>
+                    <p>Passionate Android Developer with a knack for building innovative and efficient applications. With a strong background in Java, Kotlin, and Flutter, I am dedicated to delivering high-quality solutions tailored to your needs.</p>
+                </div>
+                <div class="col-md-3 footer-section">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-section">
+                    <h5>Contact Information</h5>
+                    <p>Email: <a href="mailto:info@example.com">anilsoren201@gmail.com</a></p>
+                    <p>Phone: +91 7717782211</p>
+                    <p>Address: 123 Developer Lane, Ranchi Tech City, Morabadi 850001</p>
+                </div>
+                <div class="col-md-3 footer-section">
+                    <h5>Follow Me</h5>
+                    <a href="https://www.linkedin.com" target="_blank" class="d-inline-block mx-2"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    <a href="https://github.com" target="_blank" class="d-inline-block mx-2"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="d-inline-block mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Smooth scrolling for anchor links
+        $(document).ready(function() {
+            $('a.nav-link').on('click', function(event) {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Animate scroll
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function() {
+                    // Add hash to URL after scroll
+                    window.location.hash = hash;
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
